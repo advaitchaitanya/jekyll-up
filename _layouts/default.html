@@ -7,9 +7,9 @@ layout: compress
   <title>{{ site.title }} &middot; {{ page.title }}</title>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <link href="/assets/style.css?{{ site.time | date: '%s' }}" rel="stylesheet">
+  <link href="{{ site.url }}/assets/style.css?{{ site.time | date: '%s' }}" rel="stylesheet">
   <body>
     {{ content }}
-    <script src="/assets/main.js?{{ site.time | date: '%s' }}"></script>
+    <script src="{{ site.url }}/assets/main.js?{{ site.time | date: '%s' }}"></script>
   </body>
 </html>

@@ -1,7 +1,0 @@
-title: Jekyll Up
-
-# https://github.com/jekyll/jekyll/issues/7478#issuecomment-454419470
-theme: null
-
-sass:
-  style: compressed

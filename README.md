@@ -1,4 +1,4 @@
-![Jekyll Up logo](https://github.com/advaitchaitanya/jekyll-up/blob/main/assets/images/logo.png)
+<img alt="Jekyll Up logo" src="https://github.com/advaitchaitanya/jekyll-up/blob/main/assets/images/logo.png" width="150">
 
 # Jekyll Up
 > Get up and running with a minimal Jekyll site scaffold

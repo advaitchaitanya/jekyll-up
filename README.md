@@ -4,10 +4,9 @@
 > Get up and running with a minimal Jekyll site scaffold
 
 ## Prerequisites
-1. [Ruby](https://www.ruby-lang.org/en/) version 2.7.0 or higher
-2. [RubyGems](https://rubygems.org/)
-3. [Jekyll](https://jekyllrb.com) Ruby Gem
-4. [Node.js](https://nodejs.org/en) for npm, version 10.24.1 or higher
+1. [Ruby](https://www.ruby-lang.org/en/), version 2.7.0 or higher
+2. [Jekyll](https://jekyllrb.com) Ruby gem
+3. [Node.js](https://nodejs.org/en) for npm, version 10.24.1 or higher
 
 ## Install
 
@@ -19,11 +18,7 @@ gh repo clone advaitchaitanya/jekyll-up
 ```
 gem install jekyll bundler
 ```
-1. Change into the directory.
-```
-cd jekyll-starter
-```
-4. Install any missing gems.
+4. Install gems inside the `jekyll-up` directory.
 ```
 bundle install
 ```

@@ -46,7 +46,7 @@ npm run build
 npm run test
 ```
 
-### Deploy `_site` directory to the `gh-pages` branch.
+### Build and deploy `_site` to the `gh-pages` branch.
 ```
 npm run deploy
 ```

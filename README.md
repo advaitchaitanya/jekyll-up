@@ -1,23 +1,50 @@
-# Jekyll Up
+# Jekyll Up 🧪
 > Get up and running with a minimal Jekyll site scaffold
 
-## Build
-[Jekyll](https://jekyllrb.com) is a Ruby Gem that can be installed on most systems.
+## Prerequisites
+1. [Ruby](https://www.ruby-lang.org/en/), version 2.7.0 or higher
+2. [Jekyll](https://jekyllrb.com) Ruby gem
+3. [Node.js](https://nodejs.org/en) for npm, version 10.24.1 or higher
 
-1. Install a full Ruby development environment
-2. Install Jekyll and bundler gems
+## Install
+
+1. Clone or use this template.
+```
+gh repo clone advaitchaitanya/jekyll-up
+```
+2. Install Jekyll.
 ```
 gem install jekyll bundler
 ```
-3. Change into the directory
-```
-cd jekyll-starter
-```
-4. Install any missing gems
+4. Install gems inside the `jekyll-up` directory.
 ```
 bundle install
 ```
-5. Build the site and make it available on a local server
+5. Install npm packages.
 ```
-bundle exec jekyll serve
+npm install
+```
+
+## Build, Lint, and Deploy
+
+We use npm scripts for managing the Jekyll build, linting JavaScript, and deploying to [GitHub Pages](https://pages.github.com/). Jekyll itself takes care of compiling our Sass and minifing both the HTML and CSS files.
+
+### Build the site and preview it on a local server.
+```
+npm start
+```
+
+### Simply build the static assets to `_site`.
+```
+npm run build
+```
+
+### Lint `main.js` using [JavaScript Standard Style](https://standardjs.com/).
+```
+npm run test
+```
+
+### Build and deploy `_site` to the `gh-pages` branch.
+```
+npm run deploy
 ```

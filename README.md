@@ -41,7 +41,7 @@ npm run build
 
 ### Lint `main.js` using [JavaScript Standard Style](https://standardjs.com/).
 ```
-npm run test
+npm test
 ```
 
 ### Build and deploy `_site` to the `gh-pages` branch.
